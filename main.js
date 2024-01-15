@@ -49,15 +49,35 @@
 // let fullName = name.charAt(0)+surname.charAt(0);
 // console.log(fullName)
  
-// Task 12
+// let fullName ="Hesenova Nurane";  
+// console.log(fullName[0], fullName[9]);
 
+
+// Task 12
+// let fullName ="AD Soyad" ;
+// let text = fullName.indexOf(' ');
+// let name=fullName.slice(0,text);
+// let surname=fullName.slice(text+1);
+// console.log(surname,name);
 
 // Task 13
-// alert("Salam, Nurane");
+
+// let ad = prompt("Adinizi daxil edin");
+// console.log(`Salam,${ad}`)
 
 // Task 14
+// let a =Number(prompt("Birinci reqem")); 
+// let b =Number(prompt("Ikinci reqem"));
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
 
 // Task 15
+// let a = 12345;
+// let b = 98765;
+// let result = String(a*b);
+// console.log(result[6])
 
 // Task 16
 // "" + 1 + 0 ="10"
@@ -86,4 +106,22 @@
 
 // undefined + 1 =Nan1
 
+// Task 17
+// let nomre = Number(prompt("dord reqemli eded daxil edin:"));
+// let result=1+2+3+4;
+// console.log(result)
+  
 
+// Task 18
+// let name = prompt ("Istifadeçinin ad və soyadı");
+// console.log(name);
+
+// Task 19
+// Task 20 
+// Task21
+// let fullName="İvanov Pyotr Sergeevich";
+// let text = fullName.split(" ");
+// console.log(text[0]);
+// console.log(text[1]);
+// console.log(text[2]);
+// console.log(`${text[0]} ${text[1][0]}.${text[2][0]}.`);
